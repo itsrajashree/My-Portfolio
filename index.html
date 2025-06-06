@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rajashree's Portfolio</title>
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      background: #f7f7fc;
+      color: #2c3e50;
+    }
+
+    header {
+      text-align: center;
+      padding: 80px 20px;
+      background: linear-gradient(to right, #a18cd1, #fbc2eb);
+      color: white;
+    }
+
+    .header-buttons a {
+      display: inline-block;
+      margin: 10px;
+      padding: 10px 20px;
+      background: white;
+      color: #a18cd1;
+      border-radius: 25px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    section {
+      max-width: 960px;
+      margin: auto;
+      padding: 40px 20px;
+    }
+
+    h2 {
+      margin-bottom: 20px;
+      text-align: left;
+      position: relative;
+    }
+
+    h2::after {
+      content: '';
+      position: absolute;
+      left: 0;
+      bottom: -5px;
+      width: 80px;
+      height: 3px;
+      background: linear-gradient(to right, #7a59c4, #fbc2eb);
+      border-radius: 2px;
+    }
+
+    .skills-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+      gap: 12px;
+      text-align: center;
+    }
+
+    .skills-grid div {
+      background: white;
+      padding: 10px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+    }
+
+    .edu-container {
+      display: grid;
+      gap: 20px;
+    }
+
+    .edu-container {
+      display: grid;
+      gap: 20px;
+    }
+
+    .edu-card {
+      background: white;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+      animation: zoomIn 0.5s ease-out;
+    }
+
+    @keyframes zoomIn {
+      from {
+        transform: scale(0.95);
+        opacity: 0;
+      }
+
+      to {
+        transform: scale(1);
+        opacity: 1;
+      }
+    }
+
+    .project {
+      margin-bottom: 30px;
+    }
+
+    .divider {
+      height: 2px;
+      background: #e0d6f9;
+      margin: 40px 0;
+    }
+
+    img {
+      width: 100%;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    }
+
+    footer {
+      background: #e5d4f4;
+      text-align: center;
+      padding: 20px;
+      font-weight: bold;
+      color: #5a2d82;
+    }
+
+    .project {
+      margin-bottom: 30px;
+    }
+
+    .divider {
+      height: 2px;
+      background: #e0d6f9;
+      margin: 40px 0;
+    }
+
+    img {
+      width: 100%;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    }
+
+    footer {
+      background: #e5d4f4;
+      text-align: center;
+      padding: 20px;
+      font-weight: bold;
+      color: #5a2d82;
+    }
+
+    .gallery-grid img {
+      width: 100%;
+      height: auto;
+      object-fit: cover;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s;
+    }
+
+    .gallery-grid img:hover {
+      transform: scale(1.05);
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>Hi, I'm Rajashree 👩‍💻</h1>
+    <p>AI Enthusiast | OpenCV Developer | Creative Canva Designer</p>
+    <div class="header-buttons">
+      <a href="#contact">📩 Contact Me</a>
+<a href="https://github.com/itsrajashree/Rajashree_Professional_Resume/raw/main/RAJASHREE_Resume.docx" download>📥Download My Resume</a>
+      <a href="#project-gallery">🔍 View My Projects</a>
+    </div>
+  </header>
+
+  <section>
+    <h2>About Me</h2>
+    <p>I am a BCA graduate passionate about AI, OpenCV, and Creative Design. I blend technical thinking with creativity to build smart solutions and elegant visuals using both code and Canva design.</p>
+  </section>
+
+  <section>
+    <h2>Objective</h2>
+    <p>Aspiring <b>Data analyst and AI enthusiast</b> with real-world OpenCV experience. I aim to bring innovation into technology by combining analytics, design, and smart problem-solving to make an impact in the IT world.</p>
+  </section>
+
+  <section>
+    <h2>Education Journey</h2>
+    <div class="edu-container">
+      <div class="edu-card">
+        <h2>Bachelor Of Computer Application (3 Years)</h2>
+        <h3>Graduation – Prist University</h3>
+        <p>Vallam, Thanjavur | 2021–2024 | 94.7%</p>
+      </div>
+      <div class="edu-card">
+        <h3>HSC – Govt. Girls Hr. Sec. School</h3>
+        <p>Orathanadu | 2019–2021 | 87.93%</p>
+      </div>
+      <div class="edu-card">
+        <h3>SSLC – Govt. High School</h3>
+        <p>Kannanthangudi | 2019 | 84.8%</p>
+      </div>
+    </div>
+  </section>
+
+  <style>
+    .edu-container {
+      display: grid;
+      gap: 20px;
+    }
+
+    .edu-card {
+      background: white;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+      opacity: 0;
+      transform: translateY(20px);
+      animation: slideUp 0.8s ease-out forwards;
+    }
+
+    .edu-card:nth-child(1) {
+      animation-delay: 0s;
+    }
+
+    .edu-card:nth-child(2) {
+      animation-delay: 0.3s;
+    }
+
+    .edu-card:nth-child(3) {
+      animation-delay: 0.6s;
+    }
+
+    @keyframes slideUp {
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+  </style>
+
+  <section>
+    <h2>Skills</h2>
+    <div class="skills-grid">
+      <div>Python</div>
+      <div>AI</div>
+      <div>OpenCV</div>
+      <div>HTML</div>
+      <div>CSS</div>
+      <div>JavaScript</div>
+      <div>SQL</div>
+      <div>Data Analytics</div>
+      <div>Git</div>
+      <div>GitHub</div>
+      <div>Editing</div>
+      <div>Canva</div>
+      <div>MS Tools</div>
+      <div>Communication</div>
+      <div>Design</div>
+    </div>
+  </section>
+
+  <div class="divider"></div>
+
+  <section id="project-gallery">
+    <h2>My Projects</h2>
+    <div class="project-gallery">
+
+      <div class="project">
+        <h3>Facial Emotion Recognition Using IP Webcam</h3>
+        <p><strong>Technologies Used:</strong> Python, OpenCV, IP Webcam, Emotion Classifier</p>
+        <p><strong>Description:</strong> Captures real-time video using mobile IP webcam and classifies facial emotions like happy, sad, angry, etc.</p>
+        <p><strong>Key Features:</strong> Deep learning-based emotion detection, mobile video stream via HTTP, lightweight and real-time performance.</p>
+        <p><strong>Impact:</strong> Ideal for mobile-based emotion-aware systems like classroom monitors, kiosks, and smart feedback.</p>
+      </div>
+
+      <div class="project">
+        <h3>Face Recognition System</h3>
+        <p><strong>Technologies Used:</strong> Python, OpenCV, Haar Cascade, FisherFace Algorithm</p>
+        <p><strong>Description:</strong> A two-part system to collect and train facial datasets for real-time recognition using webcam feed.</p>
+        <p><strong>Key Features:</strong> Grayscale dataset capture, real-time recognition, confidence scoring, unknown face logging.</p>
+        <p><strong>Impact:</strong> Used in smart login systems, security control, and personal device access.</p>
+      </div>
+
+      <div class="project">
+        <h3>Color-Based Object Direction Tracking</h3>
+        <p><strong>Technologies Used:</strong> Python, OpenCV, HSV Color Masking</p>
+        <p><strong>Description:</strong> Tracks red-colored objects and provides directional feedback (left, right, front, stop) based on position and size.</p>
+        <p><strong>Key Features:</strong> HSV color calibration, contour detection, direction logic using radius and center X.</p>
+        <p><strong>Impact:</strong> Useful in robotics navigation and autonomous object tracking systems.</p>
+      </div>
+
+      <div class="project">
+        <h3>Face Detection</h3>
+        <p><strong>Technologies Used:</strong> Python, OpenCV, Haar Cascade</p>
+        <p><strong>Description:</strong> Detects faces in live webcam feed using pre-trained Haar Cascade XML classifier.</p>
+        <p><strong>Key Features:</strong> Real-time detection, bounding box overlays, responsive video feed.</p>
+        <p><strong>Impact:</strong> Basis for attendance, visitor tracking, and security entry systems.</p>
+      </div>
+
+      <div class="project">
+        <h3>Object Motion Detection System</h3>
+        <p><strong>Technologies Used:</strong> Python, OpenCV, imutils</p>
+        <p><strong>Description:</strong> Monitors movement via webcam by comparing frames using Gaussian blur, frame differencing, and thresholding.</p>
+        <p><strong>Key Features:</strong> Real-time alert display, object contour drawing, movement status update.</p>
+        <p><strong>Impact:</strong> Simulates a basic security system useful in home surveillance.</p>
+      </div>
+
+      <div class="project">
+        <h3>Mini Chatbot</h3>
+        <p><strong>Technologies Used:</strong> Python</p>
+        <p><strong>Description:</strong> A rule-based chatbot that responds to basic greetings and queries using simple keyword matching.</p>
+        <p><strong>Key Features:</strong> Interactive text-based replies, keyword logic, starter chatbot foundation.</p>
+        <p><strong>Impact:</strong> Demonstrates chatbot architecture basics for beginner-level AI development.</p>
+      </div>
+
+      <div class="project">
+        <h3>Gmail Privacy Analysis System</h3>
+        <p><strong>Technologies Used:</strong> Python, IMAP Email Library, Regex</p>
+        <p><strong>Description:</strong> Creates a Gmail access system where code verification is required before email reading begins.</p>
+        <p><strong>Key Features:</strong> IMAP login, code-based inbox access, subject filtering, security control.</p>
+        <p><strong>Impact:</strong> Helps maintain privacy and control in automated email reading tools.</p>
+      </div>
+
+    </div>
+  </section>
+
+  <style>
+    .project-gallery {
+      background: #fff;
+      padding: 30px;
+      border-radius: 10px;
+      margin-top: 40px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+    }
+
+    .project {
+      margin-bottom: 40px;
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    }
+  </style>
+
+  <style>
+    .project-gallery {
+      background: #fff;
+      padding: 30px;
+      border-radius: 10px;
+      margin-top: 40px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+    }
+
+    .project {
+      margin-bottom: 40px;
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    }
+  </style>
+
+  <div class="divider"></div>
+
+  <section id="design-gallery">
+    <h2>🎨 Design Gallery</h2>
+    <div class="gallery-grid">
+
+      <div>
+        <img src="affirmation-poster.jpg" alt="Affirmation Poster">
+        <p style="text-align: center;">Affirmation Poster</p>
+      </div>
+
+      <div>
+        <img src="goal-setting-guide.jpg" alt="Goal Setting Guide">
+        <p style="text-align: center;">Goal Setting Guide</p>
+      </div> 
+      
+      <div>
+        <img src="interview-skills.jpg" alt="Interview Skills Poster">
+        <p style="text-align: center;">Interview Skills</p>
+      </div>
+
+      <div>
+        <img src="job-seeker-tips.jpg" alt="Job Seeker Tips Poster">
+        <p style="text-align: center;">Job Seeker Tips</p>
+      </div>
+
+      <div>
+        <img src="LuxLips-Logo-Design.jpg" alt="Roselle Beauty Logo">
+        <p style="text-align: center;">Roselle Beauty Logo</p>
+      </div>
+
+      <div>
+        <img src="femme-vision.jpg" alt="Femme Vision Logo">
+        <p style="text-align: center;">Femme Vision Logo</p>
+      </div>
+
+    </div>
+  </section>
+
+  <style>
+    .gallery-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+    }
+
+    .gallery-grid img {
+      width: 100%;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    }
+  </style>
+
+  <section>
+    <h2>Certifications</h2>
+    <div style="text-align:center;">
+      <p>🎓 Canva Certificate of Appreciation – for excellence in poster & branding design</p>
+     <button onclick="document.getElementById('cert1').style.display='block'">View Canva Certificate</button>
+<img id="cert1" src="Canva-Design-Milestone-Badge.jpg" style="display:none; width:300px;" />
+
+    </div>
+    
+  </section>
+
+  <section>
+    <h2>Achievements & Highlights</h2>
+    <ul>
+      <li>🏆 BCA Graduate – 94.7%</li>
+      <li>🎓 Top Scorer in AI Projects</li>
+      <li>🧑‍🎨 Created 10+ Canva Posters</li>
+    </ul>
+  </section>
+
+  <section id="contact">
+    <h2>Get in Touch</h2>
+    <p><strong>Email:</strong> rajashreeradha259@gmail.com</p>
+    <p><strong>Phone:</strong> +91 7604934592</p>
+    <p><strong>Location:</strong> Orathanadu, Thanjavur, Tamil Nadu</p>
+    <p><strong>GitHub:</strong> <a href="https://github.com/itsrajashree" target="_blank">github.com/itsrajashree</a></p>
+  </section>
+
+  <footer>
+    © All rights reserved.<br>
+    Rajashree Radhakrishnan — BCA Graduate • AI Enthusiast • OpenCV Developer • Canva Designer<br>
+    Built with 💜 using HTML & CSS
+  </footer>
+
+</body>
+
+</html>
